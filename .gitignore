@@ -1,0 +1,5 @@
+images/
+node_modules
+package-lock.json
+.env
+key.git

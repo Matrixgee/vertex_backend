@@ -1,0 +1,185 @@
+[33mcommit fff824223e61b62d992d000aeb139943fe8de0f9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mformer_main[m[33m, [m[1;31mv2/main[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/former_main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Thu Dec 19 16:39:08 2024 +0100
+
+    chores: updated
+
+[33mcommit 9eaf8cfd079480194e83b54d76e4c2d7e76e4ecc[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Thu Dec 19 16:38:32 2024 +0100
+
+    chores: updated auth flow
+
+[33mcommit fa171c781e2e2eec4b268b885dcc6f15eaa046c9[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Thu Dec 19 16:36:17 2024 +0100
+
+    chores: updated withdrawal and deposit
+
+[33mcommit 941e11910d6079f14eda14b2e077d4c2f0b32bb6[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Nov 24 23:07:06 2024 +0100
+
+    chores: updated delete endpoint
+
+[33mcommit cc60595d5e3429bd488ac953b7fe03a7e9bbeefd[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Nov 24 23:02:09 2024 +0100
+
+    chores: updated delete endpoint
+
+[33mcommit cf357598841cfc09ebf93e55c060a37d697ceeae[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Tue Oct 8 02:09:40 2024 +0100
+
+    chores: updated suth
+
+[33mcommit e7c7a4cabbce9419b3ff9ce4aac99782781e4826[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Tue Oct 8 01:21:54 2024 +0100
+
+    chores: updated suth
+
+[33mcommit 54195d63922386b71bde95b792f16d5183e40c3b[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Tue Oct 8 00:20:49 2024 +0100
+
+    chores: updated withdrawal
+
+[33mcommit c9ec2345f25023fe9b2da94aee5d322bbfaa36cf[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Mon Oct 7 23:14:19 2024 +0100
+
+    chores: updated withdrawal
+
+[33mcommit 96b21611e6d1c908c6ba9af0e560013245993c9d[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Mon Aug 12 01:04:25 2024 +0100
+
+    chores: updated investment
+
+[33mcommit 26f216ebb755edb1bf3c3a83f025c493e0f50f20[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Aug 11 23:08:00 2024 +0100
+
+    chores: updated investments
+
+[33mcommit 5f2b13a7c4cc138cfe17e18f4e7e3e3f07626f11[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Aug 11 14:47:42 2024 +0100
+
+    chores: updated investments
+
+[33mcommit d2e867f69aa48da6d61b17622c3ba5a6dbf05f43[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Aug 11 14:32:08 2024 +0100
+
+    chores: updated investments
+
+[33mcommit 99218b917350d6d52dbf4c88c4c71bfb6dd62e45[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Aug 11 01:31:41 2024 +0100
+
+    chores: updated
+
+[33mcommit 2a3c7a0c38278d5d93c9cbdc28f2c57ca99e90e0[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Aug 11 01:27:34 2024 +0100
+
+    chores: updated
+
+[33mcommit 15eebc93921b73f314c57193cfaccb73dcde6575[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sun Aug 11 01:26:02 2024 +0100
+
+    chores: updated
+
+[33mcommit 27b813a13b35e2347530e937efaa5615f5f37434[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Fri Aug 9 11:50:14 2024 +0100
+
+    chores: updated invetment returns
+
+[33mcommit ac066c17b264337735ee0ab9aec3334edd17857c[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Fri Aug 9 04:06:42 2024 +0100
+
+    chores: updated user routes
+
+[33mcommit 884e989cbb7c9fa04a08218ebbf6da36d0cac83d[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Mon Aug 5 18:14:14 2024 +0100
+
+    chores: updated plans req
+
+[33mcommit 0ca33ee0ae6b4888af5c6b3312736f5636e175e9[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Sat Aug 3 14:30:41 2024 +0100
+
+    chores: updated plans req
+
+[33mcommit 53136c4cabbebe54597435c97d4ac4707cfd7b55[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Thu Aug 1 10:48:59 2024 +0100
+
+    chores: updated mail bugs
+
+[33mcommit 368b42da64d6f46e001e4bad5dd442cb8a05e274[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Thu Aug 1 09:20:46 2024 +0100
+
+    chores: updated mail
+
+[33mcommit 314d0712125cb9f7219f8abc787448655047fe91[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Wed Jul 31 16:46:28 2024 +0100
+
+    chores: updated withdrawal
+
+[33mcommit 98a0c29fd40b4b02bf09e34d0ede4fb51ec8cc31[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Wed Jul 31 01:10:57 2024 +0100
+
+    chores: updated withdrawal
+
+[33mcommit 7c24376ab1173d5633159737102ce10fe6853ac1[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Wed Jul 31 00:54:35 2024 +0100
+
+    chores: updated withdrawa;
+
+[33mcommit f0b0dad959d952820894e2b7859b5c477df73e0a[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Wed Jul 31 00:51:01 2024 +0100
+
+    chores: updated withdrawal endpoint
+
+[33mcommit f20c224fecc258843c2159052870f2e9996d8749[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Wed Jul 31 00:38:27 2024 +0100
+
+    chores: updated login notify
+
+[33mcommit 3ed0c89136b80ab62353ac9953f7b087565ce1b0[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Mon Jul 29 23:30:14 2024 +0100
+
+    chores: updated DOCS
+
+[33mcommit d81aa7ab73724f9b5441dff3a4b05dbcf22f05f1[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Mon Jul 29 22:55:30 2024 +0100
+
+    chores: updated mail
+
+[33mcommit d0b29a155d0e2d4a49deed96fd8a98929ef92acb[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Mon Jul 29 21:42:21 2024 +0100
+
+    chores: updated file
+
+[33mcommit bf7bb76d1df59b9e482223f8d8eb3c2f1f715bef[m
+Author: Mozibix <opuzmoses@gmail.com>
+Date:   Mon Jul 29 19:32:08 2024 +0100
+
+    push codes
