@@ -45,6 +45,12 @@ const doc = {
         $oldPassword: "",
         $newPassword: "",
       },
+      AdminCreditDebitRequest: {
+        $wallet: "balance | bitcoin | ethereum | sol",
+        $amount: 500,
+        $action: "credit | debit",
+      },
+
       //
       //
       // User
@@ -324,6 +330,21 @@ const doc = {
           updatedAt: "number",
         },
       },
+      //
+      //
+      // Credits/Debits
+
+      AdminCreditDebitResponse: {
+        message: "string",
+        data: {
+          uid: "string",
+          wallet: "string",
+          action: "credit | debit",
+          amount: "number",
+          newBalance: "number",
+        },
+      },
+
       //
       //
       // Transactions
