@@ -28,8 +28,8 @@ app.use((req, res, next) => {
 app.use(
   cors({
     origin: "*",
-    methods: ["GET", "POST", "PATCH", "DELETE"],
-  })
+    methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
+  }),
 );
 
 app.use(express.json());

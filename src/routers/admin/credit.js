@@ -13,7 +13,7 @@ const User = require("../../models/user");
  *   "action": "credit" | "debit"
  * }
  */
-router.patch("/:uid", async (req, res) => {
+router.put("/:uid", async (req, res) => {
   const { uid } = req.params;
   const { wallet, amount, action } = req.body;
 
