@@ -11,12 +11,13 @@ const userRouter = require("./user");
 const withdrawalRouter = require("./withdrawals");
 const adminRouter = require("./admin");
 const mediaRouter = require("./media");
+const creditRouter = require("./admin/credit");
 
 const router = express.Router();
 
 router.use(
   "/auth",
-  authRouter
+  authRouter,
   /**
     #swagger.tags = ['Authentication']
      */
@@ -24,7 +25,7 @@ router.use(
 
 router.use(
   "/image",
-  mediaRouter
+  mediaRouter,
   /**
     #swagger.tags = ['Media']
      */
@@ -36,15 +37,23 @@ router.use(checkUser);
 
 router.use(
   "/user",
-  userRouter
+  userRouter,
   /**
     #swagger.tags = ['User']
      */
 );
 
 router.use(
+  "/credit",
+  creditRouter,
+  /**
+    #swagger.tags = ['Admin Credits/Debits']
+     */
+);
+
+router.use(
   "/investment",
-  investmentRouter
+  investmentRouter,
   /**
     #swagger.tags = ['User Investments']
      */
@@ -52,7 +61,7 @@ router.use(
 
 router.use(
   "/withdrawal",
-  withdrawalRouter
+  withdrawalRouter,
   /**
     #swagger.tags = ['User Withdrawals']
      */
@@ -60,7 +69,7 @@ router.use(
 
 router.use(
   "/deposit",
-  depositRouter
+  depositRouter,
   /**
     #swagger.tags = ['User Deposits']
      */
@@ -76,7 +85,7 @@ router.use(
 
 router.use(
   "/transaction",
-  transactionRouter
+  transactionRouter,
   /**
     #swagger.tags = ['User Transactions']
      */
@@ -84,7 +93,7 @@ router.use(
 
 router.use(
   "/plan",
-  planRouter
+  planRouter,
   /**
     #swagger.tags = ['Plans']
      */
@@ -94,7 +103,7 @@ router.use(checkAdmin);
 
 router.use(
   "/admin",
-  adminRouter
+  adminRouter,
   /**
     #swagger.tags = ['Admin']
      */
