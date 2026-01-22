@@ -43,14 +43,6 @@ router.use(
 );
 
 router.use(
-  "/credit",
-  creditRouter,
-  /**
-    #swagger.tags = ['Admin Credits/Debits']
-     */
-);
-
-router.use(
   "/investment",
   investmentRouter,
   /**
