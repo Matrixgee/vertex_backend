@@ -12,12 +12,13 @@ const investment = require("../../models/investment");
 const transaction = require("../../models/transaction");
 const withdrawal = require("../../models/withdrawal");
 const user = require("../../models/user");
+const creditRouter = require("./credit");
 
 const router = express.Router();
 
 router.use(
   "/deposits",
-  depositsRouter
+  depositsRouter,
   /**
     #swagger.tags = ['Admin - Deposits']
      */
@@ -99,7 +100,7 @@ router.get("/all-transactions", async (req, res) => {
           ...transaction,
           user: userData,
         };
-      })
+      }),
     );
 
     transactionWithUser.sort((a, b) => b.updatedAt - a.updatedAt);
@@ -115,7 +116,7 @@ router.get("/all-transactions", async (req, res) => {
 
 router.use(
   "/investments",
-  investmentsRouter
+  investmentsRouter,
   /**
     #swagger.tags = ['Admin - Investments']
      */
@@ -123,15 +124,22 @@ router.use(
 
 router.use(
   "/plans",
-  plansRouter
+  plansRouter,
   /**
     #swagger.tags = ['Admin - Plans']
      */
 );
 
 router.use(
+  "/credit",
+  creditRouter,
+  /**
+    #swagger.tags = ['Admin Credits/Debits']
+     */
+);
+router.use(
   "/users",
-  usersRouter
+  usersRouter,
   /**
     #swagger.tags = ['Admin - Users']
      */
@@ -139,7 +147,7 @@ router.use(
 
 router.use(
   "/withdrawals",
-  withdrawalsRouter
+  withdrawalsRouter,
   /**
     #swagger.tags = ['Admin - Withdrawals']
      */
@@ -147,7 +155,7 @@ router.use(
 
 router.use(
   "/earnings",
-  earningsRouter
+  earningsRouter,
   /**
     #swagger.tags = ['Admin - Earnings']
      */

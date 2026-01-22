@@ -11,7 +11,6 @@ const userRouter = require("./user");
 const withdrawalRouter = require("./withdrawals");
 const adminRouter = require("./admin");
 const mediaRouter = require("./media");
-const creditRouter = require("./admin/credit");
 
 const router = express.Router();
 
